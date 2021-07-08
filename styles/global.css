@@ -18,8 +18,10 @@ html{
     --grey-dark: #4D5E77;
     --grey-blue: #A1B2CD;
     --grey-light: #E5EAF1;
+    --grey-medium: #EAECF2;
 
     /* 1rem = 16px (User Agent) = 100% (User Agent)*/
+    /********* 10px */
     font-size: 62.5%;
 }
 
@@ -38,7 +40,7 @@ body, button, input, textarea{
 
 .content{
     width: 100%;
-    margin: 0, auto;
+    margin: 0 auto;
 }
 
 .sr-only{
@@ -79,7 +81,7 @@ button:hover, .button:hover{
     filter: brightness(1.2);
 }
 
-button > img
+button > img,
 .button > img{
     margin-right: 1rem;
     width: 2rem;
