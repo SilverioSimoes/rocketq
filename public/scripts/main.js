@@ -32,7 +32,7 @@ function handleClick(event, check = true) {
     form.setAttribute('action', `/room/${roomId}/${questionId}/${slug}`)
 
     modalTitle.innerHTML = `${text} esta pergunta`
-    modalDescription.innerHTML = `Tem certeza que deseja ${text.toLocaleLowerCase()} esta pergunta?`
+    modalDescription.innerHTML = `Tem certeza que deseja ${text.toLowerCase()} esta pergunta?`
     modalButton.innerHTML = `Sim, ${text.toLowerCase()}`
     check ? modalButton.classList.remove('red') : modalButton.classList.add('red')
     //  Abrir modal

@@ -18,7 +18,7 @@ module.exports = {
             isRoom = roomsExistIds.some(roomExistId => roomExistId === roomId)
 
             if (!isRoom) {
-                /* Inseri a sala no banco */
+                /* Insere a sala no banco */
                 await db.run(`INSERT INTO rooms (
                     id,
                     pass
@@ -43,7 +43,7 @@ module.exports = {
 
         if (questions.length == 0) {
             if (questionsRead.length == 0) {
-                isNoQuestions = true
+                isNoQuestions = false
             }
         }
 
