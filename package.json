@@ -20,6 +20,7 @@
   "homepage": "https://github.com/SilverioSimoes/roquetq#readme",
   "dependencies": {
     "ejs": "^3.1.6",
+    "eslint": "^7.30.0",
     "express": "^4.17.1",
     "sqlite": "^4.0.23",
     "sqlite3": "^5.0.2"
